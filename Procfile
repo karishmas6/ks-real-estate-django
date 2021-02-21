@@ -1,0 +1,1 @@
+web: gunicorn ksre.wsgi --log-file -
