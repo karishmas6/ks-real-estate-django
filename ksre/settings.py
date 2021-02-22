@@ -1,4 +1,3 @@
-import django_heroku
 from pathlib import Path
 import os
 
@@ -10,8 +9,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'b9w_0k=flvmeapd30h_1264)uag@*gf5&!*t3mel(ifb!$+d#r'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -76,7 +73,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'ksre',
         'USER' : 'postgres',
-        'PASSWORD' : 'karishma123',
+        'PASSWORD' : '########',
         'HOST' : 'localhost'
     }
 }
@@ -140,6 +137,3 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
-
-# Activate Django heroku
-django_heroku.settings(locals())
