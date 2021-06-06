@@ -10,6 +10,7 @@ Bootstrap 4
 
 HTML / CSS
 
+PostgreSQL
 
 ## Setup
 
